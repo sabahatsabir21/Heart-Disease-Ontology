@@ -5,7 +5,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
+     ontologyIRI="http://www.heartdiseaseontology.org/"
      versionIRI="urn:absolute:Heart">
     <Prefix name="" IRI="http://www.heartdiseaseontology.org/#"/>
     <Prefix name="cmo" IRI="http://purl.obolibrary.org/obo/cmo.owl#"/>
