@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology#"
-     xml:base="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
+<Ontology xmlns="http://www.heartdiseaseontology.org/#"
+     xml:base="http://www.heartdiseaseontology.org/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
      versionIRI="urn:absolute:Heart">
-    <Prefix name="" IRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology#"/>
+    <Prefix name="" IRI="http://www.heartdiseaseontology.org/#"/>
     <Prefix name="cmo" IRI="http://purl.obolibrary.org/obo/cmo.owl#"/>
-    <Prefix name="hdo" IRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology#"/>
+    <Prefix name="hdo" IRI="http://www.heartdiseaseontology.org/#"/>
     <Prefix name="mio" IRI="http://www.semanticweb.org/admin/ontologies/2022/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
