@@ -12,4 +12,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:Photo="http://www.weddingonto.org#Photo/"
      xmlns:schema="http://schema.org/">
+<owl:Ontology rdf:about="http://www.weddingonto.org">
+        <dt:contributor>Anum Saleem</dt:contributor>
+        <rdfs:label xml:lang="en">Wedding Ontology</rdfs:label>
+    </owl:Ontology>
 </rdf:RDF>
