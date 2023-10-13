@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.weddingonto.org#"
+     xml:base="http://www.weddingonto.org"
+     xmlns:dt="http://purl.org/dc/terms/"
+     xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rss="http://www.ontologydesignpatterns.org/cp/owl/recurrentsituationseries.owl#"
+     xmlns:seo="https://w3id.org/scholarlydata/ontology/conference-ontology.owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Photo="http://www.weddingonto.org#Photo/"
+     xmlns:schema="http://schema.org/">
+</rdf:RDF>
