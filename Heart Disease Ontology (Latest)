@@ -1,44 +1,47 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
-     xml:base="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://hdo.org"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"
+     ontologyIRI="http://hdo.org"
      versionIRI="urn:absolute:Heart">
-    <Prefix name="" IRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology"/>
-    <Prefix name="cmo" IRI="http://purl.obolibrary.org/obo/cmo.owl#"/>
-    <Prefix name="hdo" IRI="http://www.semanticweb.org/jpc/ontologies/2022/7/Heart-Disease-Ontology#"/>
+    <Prefix name="" IRI="http://hdo.org"/>
+    <Prefix name="cmo" IRI="obo:obo/cmo.owl#"/>
+    <Prefix name="hdo" IRI="http://hdo.org#"/>
     <Prefix name="mio" IRI="http://www.semanticweb.org/admin/ontologies/2022/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="ncit" IRI="http://purl.obolibrary.org/obo/ncit.owl#"/>
+    <Prefix name="ncit" IRI="obo:obo/ncit.owl#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="scdo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="scdo" IRI="obo:obo/"/>
     <Prefix name="schema" IRI="http://schema.org/"/>
+	<Prefix name="ncicb" IRI="ncicb:"/>
+	<Prefix name="obo" IRI="obo:"/>
+	
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CurrentMedication"/>
+        <Class IRI="ncicb:CurrentMedication"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/ClinicalMeasurement"/>
+        <Class IRI="obo:ClinicalMeasurement"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="scdo:DiagnosticDevice"/>
@@ -2849,24 +2852,24 @@
         <NamedIndividual IRI="#WBC_11.6x1000/μL"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
         <Class abbreviatedIRI="schema:MedicalCondition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <Class abbreviatedIRI="schema:MedicalSign"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/ClinicalMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="obo:ClinicalMeasurement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/ClinicalMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="obo:ClinicalMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="scdo:DiagnosticDevice"/>
@@ -2906,7 +2909,7 @@
         <Class abbreviatedIRI="schema:MedicalProcedure"/>
         <ObjectMinCardinality cardinality="1">
             <ObjectProperty IRI="#detected"/>
-            <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+            <Class IRI="ncicb:Sign"/>
         </ObjectMinCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -2975,11 +2978,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalBloodFlowVelocities"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalBloodPressureResponse"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalFetalDevelopment"/>
@@ -2987,7 +2990,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalHeartRate"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalHeartRhythms"/>
@@ -3003,11 +3006,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbnormalVentricularConnection"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbsentAtrioventricularConduction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbsentPulse"/>
@@ -3015,19 +3018,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AbsentThomus"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AcuteCoronarySyndrome"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AcuteMyocardialInfarction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AcuteRheumaticCarditis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Adenosine"/>
@@ -3047,7 +3050,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Akinesis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AlcoholSeptalAblation"/>
@@ -3083,7 +3086,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AngiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AngiographyX-rayImagingSystems"/>
@@ -3123,27 +3126,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticAneurysms"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticDissection"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticValveAtresia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticValveRegurgitation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AorticValveStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ApicalMyectomy"/>
@@ -3167,7 +3170,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AssymetricSeptalHypertrophy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Atherectomy"/>
@@ -3183,11 +3186,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtrialDepolarization"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtrialEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtrialFibrillation"/>
@@ -3207,11 +3210,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtrioventricularBlock"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtrioventricularInflammation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AtypicalSymptoms"/>
@@ -3271,7 +3274,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BloodGlucoseTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BluishDiscolorationOnSkin"/>
@@ -3279,7 +3282,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BootShapedHeart"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bradyarrhythmia"/>
@@ -3299,7 +3302,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CTAngiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CTScanner"/>
@@ -3307,11 +3310,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calcification"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CalcifiedPlaques"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CalciumChannelBlockers"/>
@@ -3335,7 +3338,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiomarkerTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiopsy"/>
@@ -3347,7 +3350,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiopsyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacCatheterization"/>
@@ -3359,11 +3362,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacCatheterizationMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacFibrosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacPacemakers"/>
@@ -3379,15 +3382,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacTumors"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cardiomegaly"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cardiomyopathy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiovascularSystem"/>
@@ -3395,7 +3398,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CarotidArteryStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CarotidEndarterectomy"/>
@@ -3427,11 +3430,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChamberDilation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChamberEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChemicalImbalance"/>
@@ -3471,7 +3474,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ChronicPressureOverload"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoagulationTest"/>
@@ -3479,11 +3482,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoagulationTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationOfAorta"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationOfTheAorta"/>
@@ -3491,11 +3494,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationOfVentricles"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationOfVessels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationRepair"/>
@@ -3503,7 +3506,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CollateralBloodVessels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CompleteBloodCount"/>
@@ -3511,7 +3514,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CompleteBloodCountMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComplicationOfHeartSurgery"/>
@@ -3519,7 +3522,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CompressionOfArterialLumen"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ConditionsAffectingBloodVessels"/>
@@ -3543,7 +3546,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CongenitalHeartDisease"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Congestion"/>
@@ -3555,7 +3558,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CongestiveHepatopathy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ConnectiveTissueDisorders"/>
@@ -3575,7 +3578,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryBlockage"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryBypassGrafting"/>
@@ -3583,7 +3586,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryDisease"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryDissection"/>
@@ -3595,15 +3598,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryNarrowing"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryObstruction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryOcclusion"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArterySpasm"/>
@@ -3615,7 +3618,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryArteryStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoronaryEmbolism"/>
@@ -3663,23 +3666,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedDiastolicFillingTime"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedEjectionFraction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedExerciseTolerance"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedLevelsOfHighDensityLipoprotein"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedPulmonaryVascularity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedUrineOutput"/>
@@ -3687,11 +3690,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DecreasedVentricularFilling"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DeepVeinThrombosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Defibrillator"/>
@@ -3703,15 +3706,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelayedAtrioventricularConduction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelayedVentricularDepolarization"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DelaysInVentricularActivation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DevelopmentalDelaysInInfants"/>
@@ -3719,11 +3722,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DextroTranspositionOfTheGreatArteries"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dextrocardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diabetes"/>
@@ -3735,7 +3738,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DiastolicDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DifficultyBreathing"/>
@@ -3775,35 +3778,35 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilatedLeftAtrium"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilatedLeftVentricle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilatedOfPulmonaryBloodVessels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilatedRightVentricle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilationOfAorticSegments"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DilationOfVentricles"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DissectionFlap"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DistalVesselSparring"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diuretics"/>
@@ -3823,7 +3826,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DopplerEchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DopplerTransducers"/>
@@ -3835,15 +3838,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DynamicLeftVentricularOutflowTractObstruction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DysfunctionalMyocardium"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dyskinesis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dyspnea"/>
@@ -3879,11 +3882,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EggOnString"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Electrocardiogram"/>
@@ -3915,47 +3918,47 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElectrophysiologyStudyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedBNPLevels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedCK-MBLevels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedCRPLevels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedHeartRate"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedLevelsOfAntistreptolysinO"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedLevelsOfCardiacEnzymes"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedLevelsOfLowDensityLipoprotein"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedMyoglobinLevels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedPulmonaryArteryPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedRightAtrialPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedVagalTone"/>
@@ -3963,7 +3966,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedWhiteBloodCells"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Embolectomy"/>
@@ -3971,7 +3974,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Embolus"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EmergencyCoronaryArteryBypassGrafting"/>
@@ -4003,15 +4006,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EngorgementOfPulmonaryBloodVessels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EnlargedAtria"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EnlargedInferiorVenaCava"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EnlargedLiver"/>
@@ -4047,11 +4050,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExerciseStressTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExtensiveMyocardialDamage"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExternalDevices"/>
@@ -4071,7 +4074,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FalseLumen"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fatigue"/>
@@ -4087,7 +4090,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FetalEchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fever"/>
@@ -4103,7 +4106,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FlowReversal"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FluidRetention"/>
@@ -4155,7 +4158,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GreatArteriesSwitched"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GroupAStreptococcusInfection"/>
@@ -4175,7 +4178,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HRCTMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HardBreathing"/>
@@ -4183,7 +4186,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartArrythmias"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartAttack"/>
@@ -4191,7 +4194,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartBlock"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartCollapse"/>
@@ -4203,7 +4206,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartFailure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DiseaseOrDisorder"/>
+        <Class IRI="ncicb:DiseaseOrDisorder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HeartMurmurs"/>
@@ -4239,7 +4242,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hemachromatosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hemochromatosis"/>
@@ -4267,11 +4270,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HigherPressureGradients"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HigherPulmonaryArteryPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HolterHeartMonitor"/>
@@ -4287,7 +4290,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hypertension"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hyperthyroidism"/>
@@ -4299,23 +4302,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypertrophiedMyocardialFibres"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypertrophiedVentricularSeptum"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hypertrophy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hypokinesis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypoplasiaInAorticAorticArch"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypoplasticLeftHeartSyndrome"/>
@@ -4323,15 +4326,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypoplasticLeftVentricle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HypoplasticThomus"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hypotension"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hypothyroidism"/>
@@ -4351,15 +4354,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ImbalancesInElectrolytes"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ImpairedAtrialContraction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ImpairedHeartMuscle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ImpairedThinking"/>
@@ -4379,7 +4382,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InadequateBloodSupply"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InadequateFoodIntake"/>
@@ -4395,27 +4398,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreaseInPulmonaryArteryPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreaseInPulmonaryVascularResistance"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedBloodClots"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedBloodFlowInVentricles"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedBloodFlowVelocity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedErythrocyteSedimentationRateLevels"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedLevelsOfLipoprotein"/>
@@ -4423,19 +4426,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedPressureInLeftVentricle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedPulmonaryArteryPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IncreasedPulmonaryVascularity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InducibleIschemia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InfectionOfHeartMuscle"/>
@@ -4459,7 +4462,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InflammationInHeartMuscle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InflammationOfHeartMuscle"/>
@@ -4475,7 +4478,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InterstitialEdema"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IntraAorticBalloonPumps"/>
@@ -4483,7 +4486,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IntramuralHematoma"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IntravascularUltrasoundSystem"/>
@@ -4491,11 +4494,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IntricateArterialBranching"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IrregularHeartRate"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IrregularHeartbeats"/>
@@ -4511,7 +4514,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IrregularlyIrregularVentricleResponse"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Irritability"/>
@@ -4519,7 +4522,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ischemia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IschemicDilatedCardiomyopathy"/>
@@ -4527,15 +4530,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IschemicHeartMuscle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IsovolumetriContraction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#IsovolumetricRelaxation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ivabradine"/>
@@ -4543,7 +4546,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JetSeverity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#JugularVenousDetention"/>
@@ -4575,15 +4578,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftAtrialEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftAtrialHypertrophy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftBundleBranchBlock"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftHeartFailure"/>
@@ -4595,15 +4598,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftVentricularEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftVentricularHypertrophy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftVentricularObstruction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftVentricularStiffness"/>
@@ -4611,7 +4614,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LeftVentricularSystolicDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LegSwelling"/>
@@ -4623,7 +4626,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LimitedExerciseCapacity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LipidPanel"/>
@@ -4631,7 +4634,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LipidPanelMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LiverFunctionTest"/>
@@ -4639,7 +4642,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LiverFunctionTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Long-termAlcoholUse"/>
@@ -4691,7 +4694,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MicrovascularAngina"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MicrovascularDysfunction"/>
@@ -4707,15 +4710,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralRegurgitation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralValveAbnormalities"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralValveAtresia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralValveChanges"/>
@@ -4723,15 +4726,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralValveRegurgitation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MitralValveStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ModeratePulmonaryHypertension"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MultifactorialInheritance"/>
@@ -4739,39 +4742,39 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialDamage"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialFIbrosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialFailure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialInjury"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialIschemia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialPerfusion"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialScarring"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialStrain"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MyocardialWallThickness"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Myocarditis"/>
@@ -4783,11 +4786,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NarrowingInArterialWalls"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NarrowingOfAorta"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nausea"/>
@@ -4807,7 +4810,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NonCalcifiedPlaques"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NonObstructiveCoronaryArteryDisease"/>
@@ -4835,7 +4838,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearExerciseStressTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearStressTest"/>
@@ -4847,7 +4850,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearStressTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCTSystem"/>
@@ -4867,7 +4870,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OcclusionOfLeftAnteriorDescendingArtery"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Open-HeartMazeProcedure"/>
@@ -4879,15 +4882,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OpeningInAtrialSeptum"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OrthostaticTachycardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OverridingAorta"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PainfulRedJoints"/>
@@ -4907,11 +4910,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PapillaryMuscleAbnormality"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ParadoxicalBloodPressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PatchAugmentation"/>
@@ -4931,19 +4934,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PerfusionDefects"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PericardialEffusion"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pericarditis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PeripheralArteryStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PersistentCough"/>
@@ -4963,7 +4966,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PlaqueComposition"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PlaqueRupture"/>
@@ -4971,11 +4974,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PleuralEffusion"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PolymorphicVentricularTachycardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoorDiet"/>
@@ -4991,7 +4994,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoorOxygenation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PoorWeightGain"/>
@@ -5055,15 +5058,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryArteryHypertension"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryCongestion"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryEdema"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryEmbolism"/>
@@ -5071,11 +5074,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryHypertension"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PulmonaryThromboendarterectomy"/>
@@ -5119,7 +5122,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RapidHeartRhythm"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RapidHeartbeat"/>
@@ -5127,7 +5130,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RapidVentricularResponse"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RecurringRespiratoryInfections"/>
@@ -5135,7 +5138,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RedistributionOfBloodFlow"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedAbilityToExercise"/>
@@ -5143,23 +5146,23 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedEjectionFraction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedHeartRate"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedLeftVentricularEjection"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedLeftVentricularFunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ReducedPulmonaryArterySize"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RefactoryChestPain"/>
@@ -5167,7 +5170,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RegurgitantJet"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Regurgitation"/>
@@ -5179,7 +5182,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RenalArteryStenosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RenalFunctionTest"/>
@@ -5187,11 +5190,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RenalFunctionTestMeasuement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResidualIschemia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RespiratorySystem"/>
@@ -5211,19 +5214,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RibNotching"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightAorticArch"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightAtrialEnlargement"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightBundleBranchBlock"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightHeartFailure"/>
@@ -5231,11 +5234,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightSidedHeartStrain"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightVentricleDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightVentricularAssistDevice"/>
@@ -5243,7 +5246,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightVentricularHypertrophy"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RightVentricularMyocardialInfarction"/>
@@ -5271,11 +5274,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sarcoidosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ScarTissueInHeartMuscle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ScreeningTest"/>
@@ -5283,7 +5286,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ScreeningTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SedentaryLifestyle"/>
@@ -5307,11 +5310,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SerumElectrolytesTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShuntingOfBlood"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SickSinusSyndrome"/>
@@ -5323,7 +5326,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SinusBradycardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SinusNodeDysfunction"/>
@@ -5367,7 +5370,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StenoticLesions"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StentPlacement"/>
@@ -5395,11 +5398,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StressEchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StretchedMyocardium"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stroke"/>
@@ -5415,7 +5418,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SupraventricularTachycardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SurgicalPDALigation"/>
@@ -5463,7 +5466,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thrombocytosis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thrombolysis"/>
@@ -5471,7 +5474,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thrombus"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ThyroidDisease"/>
@@ -5483,7 +5486,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ThyroidFunctionTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/BloodMeasurement"/>
+        <Class IRI="obo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiltTable"/>
@@ -5499,7 +5502,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiltTableTestMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiredWhileFeeding"/>
@@ -5511,11 +5514,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TissueInflammation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TissueIschemia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TobaccoUse"/>
@@ -5523,7 +5526,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TortuousVesselAppearance"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TotalArtificialHeart"/>
@@ -5555,7 +5558,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransesophagealEchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransesophagealEchocardiographyProbes"/>
@@ -5563,7 +5566,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransmuralInfarction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransmyocardialLaserRevascularization"/>
@@ -5583,7 +5586,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransthoracicEchocardiographyMeasurement"/>
-        <Class IRI="http://purl.obolibrary.org/CardiovascularMeasurement"/>
+        <Class IRI="obo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Treadmill"/>
@@ -5591,7 +5594,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TricuspidValveAbnormalities"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TricuspidValveRepairOrReplacement"/>
@@ -5599,7 +5602,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TurbulentBloodFlow"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#UltrasoundMachine"/>
@@ -5627,19 +5630,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ValveDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ValveInsufficiency"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ValveThickening"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ValvularDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ValvularHeartDisease"/>
@@ -5651,7 +5654,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VascularRedistribution"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vasodilators"/>
@@ -5663,27 +5666,27 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VasovagalResponse"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularArrhythmias"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularDepolarization"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularDilation"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularDysfunction"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularPrematureContractions"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularSeptalDefect"/>
@@ -5695,15 +5698,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VentricularTachycardia"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VesselTortuousity"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ViableMyocardium"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ViralHepatitis"/>
@@ -5715,7 +5718,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ViralMyocarditis"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#VitalSignAssessment"/>
@@ -5723,7 +5726,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WallMotionAbnormalities"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Warfarin"/>
@@ -5735,7 +5738,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WeakenedHeartMuscle"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weakness"/>
@@ -5755,7 +5758,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#WidenedPulsePressure"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#X-rayMachine"/>
@@ -5854,7 +5857,7 @@
         <NamedIndividual IRI="#CTScanner"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#Cardiomegaly"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -5958,7 +5961,7 @@
         <NamedIndividual IRI="#HRCT"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#HR_123bpm"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6050,7 +6053,7 @@
         <NamedIndividual IRI="#Loprin"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CurrentMedication"/>
+        <Class IRI="ncicb:CurrentMedication"/>
         <NamedIndividual IRI="#Loprin75mg_OD"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6066,7 +6069,7 @@
         <NamedIndividual IRI="#Lymphocytes_0.2-0.45"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#MildInferiorMyocardialIschemia"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6078,7 +6081,7 @@
         <NamedIndividual IRI="#ModeratePulmonaryHypertension"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#ModeratePulmonaryHypertension."/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6130,7 +6133,7 @@
         <NamedIndividual IRI="#PRInterval_120-200ms"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#PRInterval_160ms"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6142,7 +6145,7 @@
         <NamedIndividual IRI="#PWaveDuration_120-200ms"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#PWaveDuration_140ms"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6166,7 +6169,7 @@
         <NamedIndividual IRI="#PleuralSpacesAreClear"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#PneumonicInfection"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6178,7 +6181,7 @@
         <NamedIndividual IRI="#Pregnanciesx3"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#PreservedLeftVentricularFunction"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6186,7 +6189,7 @@
         <NamedIndividual IRI="#PulmonaryHypertension"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#PulmonaryTB"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6194,7 +6197,7 @@
         <NamedIndividual IRI="#QRSDuration_80-100ms"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#QRSDuration_82ms"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6238,11 +6241,11 @@
         <NamedIndividual IRI="#RheumaticHeartDisease"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#RheumaticHeartDiseaseWithSevereMitralStenosisAndTraceOfAorticRegurgitation"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#STDepression"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6270,11 +6273,11 @@
         <NamedIndividual IRI="#SevereMitralStenosis"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#SignsOfPulmonaryHypertension"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#SinusNodeTachycardia"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6298,7 +6301,7 @@
         <NamedIndividual IRI="#TDuration_160ms"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#TDuration_352ms"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6318,7 +6321,7 @@
         <NamedIndividual IRI="#TheUpperAbdominalSolidOrgansAndBowelHaveNormalNon-ContrastAppearance"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
         <NamedIndividual IRI="#V5V6AbnormalTWave"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6398,7 +6401,7 @@
         <NamedIndividual IRI="#MitralValveArea1.5cm²"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#P/QRS/TAxis_47.9/91.4/23.7deg"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6418,15 +6421,15 @@
         <NamedIndividual IRI="#Pulse_120/min"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#Qt/Qtc_372/533"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#R(V5)-S(V1)_1.67mV"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ElectrocardiogramMeasurement"/>
+        <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
         <NamedIndividual IRI="#R(V5)/S(V1)_1.08/0.58mV"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -6474,7 +6477,7 @@
         <NamedIndividual IRI="#Sodium_137mmol/L"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CurrentMedication"/>
+        <Class IRI="ncicb:CurrentMedication"/>
         <NamedIndividual IRI="#Spiromide50/20mg_OD"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -7750,7 +7753,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#detected"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sign"/>
+        <Class IRI="ncicb:Sign"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#finds"/>
@@ -7782,11 +7785,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isCurrentlyOn"/>
-        <Class IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CurrentMedication"/>
+        <Class IRI="ncicb:CurrentMedication"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#measures"/>
-        <Class IRI="http://purl.obolibrary.org/ClinicalMeasurement"/>
+        <Class IRI="obo:ClinicalMeasurement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#normalTestValues"/>
