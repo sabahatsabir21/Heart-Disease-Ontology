@@ -8,16 +8,15 @@
      ontologyIRI="http://hdo.org"
      versionIRI="urn:absolute:Heart">
     <Prefix name="" IRI="http://hdo.org"/>
-    <Prefix name="cmo" IRI="obo:obo/cmo.owl#"/>
+    <Prefix name="cmo" IRI="http://purl.obolibrary.org/obo/cmo.obo"/>
     <Prefix name="hdo" IRI="http://hdo.org#"/>
-    <Prefix name="obo" IRI="obo:"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="ncit" IRI="obo:obo/ncit.owl#"/>
+    <Prefix name="ncit" IRI="http://purl.obolibrary.org/obo/ncit.owl"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="scdo" IRI="obo:obo/"/>
+    <Prefix name="scdo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="schema" IRI="http://schema.org/"/>
     <Declaration>
         <Class IRI="#ACEInhibitors"/>
@@ -2189,13 +2188,13 @@
         <Class IRI="ncicb:Sign"/>
     </Declaration>
     <Declaration>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </Declaration>
     <Declaration>
-        <Class IRI="obo:ClinicalMeasurement"/>
+        <Class IRI="cmo:ClinicalMeasurement"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="scdo:DiagnosticDevice"/>
@@ -2980,7 +2979,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AngiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AngiographyX-rayImagingSystems"/>
@@ -3168,7 +3167,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BloodGlucoseTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BluishDiscolorationOnSkin"/>
@@ -3196,7 +3195,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CTAngiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CTScanner"/>
@@ -3232,7 +3231,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiomarkerTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiopsy"/>
@@ -3244,7 +3243,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacBiopsyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacCatheterization"/>
@@ -3256,7 +3255,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacCatheterizationMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CardiacFibrosis"/>
@@ -3376,7 +3375,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoagulationTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CoarctationOfAorta"/>
@@ -3408,7 +3407,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CompleteBloodCountMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ComplicationOfHeartSurgery"/>
@@ -3720,7 +3719,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DopplerEchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DopplerTransducers"/>
@@ -3776,7 +3775,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EggOnString"/>
@@ -3812,7 +3811,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElectrophysiologyStudyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ElevatedBNPLevels"/>
@@ -3944,7 +3943,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExerciseStressTestMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ExtensiveMyocardialDamage"/>
@@ -3984,7 +3983,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#FetalEchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fever"/>
@@ -4072,7 +4071,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HRCTMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HardBreathing"/>
@@ -4528,7 +4527,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LipidPanelMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LiverFunctionTest"/>
@@ -4536,7 +4535,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LiverFunctionTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Long-termAlcoholUse"/>
@@ -4732,7 +4731,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearExerciseStressTestMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearStressTest"/>
@@ -4744,7 +4743,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NuclearStressTestMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OCTSystem"/>
@@ -5084,7 +5083,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RenalFunctionTestMeasuement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ResidualIschemia"/>
@@ -5180,7 +5179,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ScreeningTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SedentaryLifestyle"/>
@@ -5204,7 +5203,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SerumElectrolytesTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ShuntingOfBlood"/>
@@ -5292,7 +5291,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StressEchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StretchedMyocardium"/>
@@ -5380,7 +5379,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ThyroidFunctionTestMeasurement"/>
-        <Class IRI="obo:BloodMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiltTable"/>
@@ -5396,7 +5395,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiltTableTestMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TiredWhileFeeding"/>
@@ -5452,7 +5451,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransesophagealEchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransesophagealEchocardiographyProbes"/>
@@ -5480,7 +5479,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransthoracicEchocardiographyMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Treadmill"/>
@@ -5753,19 +5752,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ncicb:ElectrocardiogramMeasurement"/>
-        <Class IRI="obo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="ncicb:Sign"/>
         <Class abbreviatedIRI="schema:MedicalSign"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="obo:BloodMeasurement"/>
-        <Class IRI="obo:ClinicalMeasurement"/>
+        <Class IRI="cmo:BloodMeasurement"/>
+        <Class IRI="cmo:ClinicalMeasurement"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="obo:CardiovascularMeasurement"/>
-        <Class IRI="obo:ClinicalMeasurement"/>
+        <Class IRI="cmo:CardiovascularMeasurement"/>
+        <Class IRI="cmo:ClinicalMeasurement"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="scdo:DiagnosticDevice"/>
@@ -7773,7 +7772,7 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#measures"/>
-        <Class IRI="obo:ClinicalMeasurement"/>
+        <Class IRI="cmo:ClinicalMeasurement"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#normalTestValues"/>
