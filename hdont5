@@ -11,7 +11,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:Photo="http://www.weddingonto.org#Photo/"
-	 xmlns:scdo=http://purl.obolibrary.org/obo/
+	 xmlns:scdo="http://purl.obolibrary.org/obo/"
      xmlns:schema="http://schema.org/">
 <owl:Ontology rdf:about="http://www.weddingonto.org">
         <dt:contributor>Anum Saleem</dt:contributor>
