@@ -14,16 +14,7 @@
      xmlns:obo="http://purl.obolibrary.org/"
      xmlns:scdo="http://purl.obolibrary.org/obo/"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="http://hdo.org">
-        <dt:contributor>Sabahat Sabir</dt:contributor>
-        <rdfs:label xml:lang="en">Heart Disease Ontology</rdfs:label>
-    </owl:Ontology>
-    
 
-
-	<!-- http://purl.org/dc/terms/contributor -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
 
 
 </rdf:RDF>
