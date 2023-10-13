@@ -24,7 +24,7 @@
 	<!-- http://purl.org/dc/terms/contributor -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
-    <!-- 
+
 
 </rdf:RDF>
 
