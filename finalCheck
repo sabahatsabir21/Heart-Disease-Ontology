@@ -15,7 +15,6 @@
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="ncit" IRI="http://purl.obolibrary.org/obo/ncit.owl"/>
-	<Prefix name="snomed-ct" IRI="http://purl.bioontology.org/ontology/SNOMEDCT/"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="scdo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="schema" IRI="http://schema.org/"/>
