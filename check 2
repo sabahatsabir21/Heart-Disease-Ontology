@@ -14,4 +14,4362 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="schema" IRI="https://schema.org"/>
-   
+    <Declaration>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Brand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/FoodService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Menu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Place"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dholki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GuestOfHonor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Jannh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JolBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mayun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nisbat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organisation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performances"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ubtan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Waddah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masjid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masterTilesOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#musicBand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#organizer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalalSon&apos;sOwner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#A-line_Gown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aarsi_Mushaf_Dikhana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaratWeddingHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BridalShower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridal_Gown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bridal_Portraits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrideFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chauthi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coat_Pent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cocktail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costumes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Darwaza_Rukai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DastarBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dholki"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doodh_pilai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dowry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dozokhi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dress_Bride"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dress_Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dress_Groom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drone_Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dua_e_Khair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Food_serving_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ghagra_Choli"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gharara_kurta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Groom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GroomFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guests"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Guthna_Pakrai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HabarBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImamZamin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurta_Shalwar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kurta_pajama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lehnga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maklawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mangni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarriageProposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maxi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mehr"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nikah"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photo_Booths"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photo_Studio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photographer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Photography"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plated_meal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RasmeHinna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rituals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rukhsati"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salami"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saloon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SehraBandi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sharara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sherwani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stop-Motion_Wedding_Photo_Film"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#The_Buffet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theme"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vest_suit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waist_coat_Kurta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waleema"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WeddingCeremony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding_Marriage_hall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding_Refreshment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding_inhouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wedding_openair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#imam_mufti"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#invitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#joota_chupai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#luddi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#post_Wedding_Events"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#printing_press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sadaq"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skirt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wedding_cards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wedding_planner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attan(BalochDance)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Black_&amp;_White_Photos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lotokhi(Invitation)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sammi(PotohariDance)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#banoor(bride)"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saloonk(groom)"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Adopted"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AreDesignedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArrangedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Designed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizationRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasPhotogrpahyRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasSingingRatings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#InvitedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsAcceptedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsBeginningOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsDoneAfter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsDoneAt"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsHostedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsOwnedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsOwnerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PerformedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PresentedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Towards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#arrangedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#conductedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSaloonRating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isDaughterOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isFatherOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isGiftedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isGiftedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isHostedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isOwnedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isOwnerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSonOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#are_classified_into"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#are_performed_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#are_printed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#arranged_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#booked_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consists_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#decides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gifted_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#gives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_different"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_organized_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#invited_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#invited_through"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_celebrated_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_decided_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_given_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offered_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pays"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#planned"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prepared_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#shows"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wears"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:equivalentClass"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/givenName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/ratingCount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Barat_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#CostumeColor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#EventDay"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Includes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#MehndiDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannerCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Profession"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBalancaClubCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#SaloonCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Specifications"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#catering_service"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#costumeItems"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#foodExpenses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#foodItems"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performanceCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#variety"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#waleemaDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#wholeEventCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#wrappedIn"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BrideAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Costumes_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DowryItems_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GroomAge"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GuestsStrength"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Hotel_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nikah_venu"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Religion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Saloon_Charges"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Studio_name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#cards_Price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mehr_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#salami_amount"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#wedding_Duration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AhmedFiazPhotoGraphy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AlSabaStudio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AtifAslam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelAndResort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelandResort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Band1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Barcelet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Brand1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BridalShower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BrideSideCelebration"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Days"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesignerCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dua"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dynasty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventDresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotoGrapher4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPlannerCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventsByPash"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Fiance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FinalEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FineArtWeddingsbyIrfanAhson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstEnterance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstWeddingEvent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodStreetSargodha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Friends"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GroomMother"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IbrarUlHaq"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhsonPhotoGraphy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#KSConcepts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Lahore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#MobeenStudio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NattyAika"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Nisbat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#OPMShoots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RahatFatehAliKhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ReceptionArea"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaeedSayalPhotography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SafinaBoutique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahabGeeTent_AndCateringService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahzzayKhalid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaloonServices"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SheikhMehmoodIqbal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SilverPalmMarquee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SingingCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SundasMustafa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#VogueMen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#WeddingRituals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#WinceByNadia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahsanHabib"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#barat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#baratHotelCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#batairMasalaAndBeefChapliKbab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#catering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#costumes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#dholki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#floralArrangements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#foodArrangements"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#foodCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#guest1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#jalalKhan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#koreanChickenAndLime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mehndi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#murghPolao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#muttonShahiQoorma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#stirFriedVegRice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#sweets"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#waleema"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#wedding_dresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride/GroomFamily"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photography&amp;videographyCharges"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bride_Dresses"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bride_Salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cosmetics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crockery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dresses_Bride"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dresses_Groom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electric_Appliances"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Furniture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Groom_Salami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Home_Textile_items"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jewellary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mehndi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Shoes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Swing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#barat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bridal_shower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rupees"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#waleema"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://schema.org/Organization"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organisation"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Jannh"/>
+        <Class IRI="#Wedding"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JolBandi"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+        <Class IRI="#Dozokhi"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+        <Class IRI="#RasmeHinna"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nisbat"/>
+        <Class IRI="#Mangni"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Waddah"/>
+        <Class IRI="#Wedding"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Bride"/>
+        <Class IRI="#banoor(bride)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Groom"/>
+        <Class IRI="#saloonk(groom)"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#HabarBandi"/>
+        <Class IRI="#Mangni"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Mehr"/>
+        <Class IRI="#sadaq"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#invitation"/>
+        <Class IRI="#Lotokhi(Invitation)"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="http://schema.org/City"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/EventVenue"/>
+        <Class IRI="http://schema.org/Place"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://schema.org/FoodService"/>
+        <Class IRI="http://schema.org/Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#organizer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Dholki"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GuestOfHonor"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Jannh"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JolBandi"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mayun"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Nisbat"/>
+        <Class IRI="#Mangni"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Organisation"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performers"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Ubtan"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mayun"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Waddah"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <Class IRI="http://schema.org/Organization"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masjid"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masterTilesOwner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#organizer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalalSon&apos;sOwner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#A-line_Gown"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aarsi_Mushaf_Dikhana"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barat"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaratWeddingHotel"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BridalShower"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridal_Gown"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bridal_Portraits"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bride"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrideFamily"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chauthi"/>
+        <Class IRI="#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coat_Pent"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cocktail"/>
+        <Class IRI="#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Darwaza_Rukai"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DastarBandi"/>
+        <Class IRI="#Barat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dholki"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doodh_pilai"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dozokhi"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dress_Bride"/>
+        <Class IRI="#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dress_Designer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dress_Groom"/>
+        <Class IRI="#Costumes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drone_Photography"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dua_e_Khair"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feasting"/>
+        <Class IRI="#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_serving_Style"/>
+        <Class IRI="http://schema.org/FoodService"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frock"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ghagra_Choli"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gharara_kurta"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GroomFamily"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guests"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Guthna_Pakrai"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HabarBandi"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImamZamin"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurta_Shalwar"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kurta_pajama"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lehnga"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maklawa"/>
+        <Class IRI="#post_Wedding_Events"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mangni"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarriageProposal"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maxi"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nikah"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photo_Booths"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photo_Studio"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Photographer"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plated_meal"/>
+        <Class IRI="#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RasmeHinna"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reception"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rukhsati"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salami"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saloon"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SehraBandi"/>
+        <Class IRI="#Barat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sharara"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sherwani"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stop-Motion_Wedding_Photo_Film"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#The_Buffet"/>
+        <Class IRI="#Food_serving_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vest_suit"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waist_coat_Kurta"/>
+        <Class IRI="#Dress_Groom"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waleema"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WeddingCeremony"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding_Marriage_hall"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding_Refreshment"/>
+        <Class IRI="#WeddingCeremony"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding_inhouse"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wedding_openair"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#imam_mufti"/>
+        <Class IRI="#Guests"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#invitation"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#joota_chupai"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#luddi"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#post_Wedding_Events"/>
+        <Class IRI="http://schema.org/Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#printing_press"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skirt"/>
+        <Class IRI="#Dress_Bride"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wedding_planner"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attan(BalochDance)"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Black_&amp;_White_Photos"/>
+        <Class IRI="#Photography"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lotokhi(Invitation)"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sammi(PotohariDance)"/>
+        <Class IRI="#Rituals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#banoor(bride)"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saloonk(groom)"/>
+        <Class IRI="http://schema.org/Person"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AlSabaStudio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AtifAslam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelandResort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#musicBand"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Band1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImamZamin"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Barcelet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Brand"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Brand1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BridalShower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bride"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BridalShower"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BrideSideCelebration"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#TimeInterval"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Days"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dress_Designer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesignerCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dua_e_Khair"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dua"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dynasty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mehndi"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dress_Bride"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventDresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotoGrapher4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPlannerCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventsByPash"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrideFamily"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GroomFamily"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Fiance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Waleema"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FinalEvent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FineArtWeddingsbyIrfanAhson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Reception"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstEnterance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Barat"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstWeddingEvent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/AggregateRating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodStreetSargodha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Friends"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Groom"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GroomMother"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaratWeddingHotel"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IbrarUlHaq"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/EventVenue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Lahore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#imam_mufti"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wedding_planner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NattyAika"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masterTilesOwner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalalSon&apos;sOwner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performances"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performances"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performances"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RahatFatehAliKhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/EventVenue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ReceptionArea"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MarriageProposal"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mangni"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaratWeddingHotel"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaeedSayalPhotography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SafinaBoutique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahabGeeTent_AndCateringService"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saloon"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaloonServices"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wedding_planner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/EventVenue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masterTilesOwner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SheikhMehmoodIqbal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SingingCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SundasMustafa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theme"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#boutiques"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#VogueMen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#WeddingRituals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahsanHabib"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#barat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#baratHotelCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#batairMasalaAndBeefChapliKbab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/FoodService"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#catering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Nikah"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/City"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/City"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Mayun"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#costumes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#dholki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#floralArrangements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wedding_Refreshment"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#foodArrangements"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#foodCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#GuestOfHonor"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#guest1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#JalalSon&apos;sOwner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#jalalKhan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#koreanChickenAndLime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mehndi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#imam_mufti"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#murghPolao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#muttonShahiQoorma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photo_Studio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wedding_planner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wedding_planner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Photographer"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#stirFriedVegRice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Menu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#sweets"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#waleema"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dress_Groom"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#wedding_dresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/Person"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride/GroomFamily"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photography&amp;videographyCharges"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#Bride_Dresses"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Salami"/>
+        <NamedIndividual IRI="#Bride_Salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#Cosmetics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Crockery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costumes"/>
+        <NamedIndividual IRI="#Dresses_Bride"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Costumes"/>
+        <NamedIndividual IRI="#Dresses_Groom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Electric_Appliances"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Furniture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Salami"/>
+        <NamedIndividual IRI="#Groom_Salami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dowry"/>
+        <NamedIndividual IRI="#Home_Textile_items"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#Jewellary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bari"/>
+        <NamedIndividual IRI="#Shoes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wedding_cards"/>
+        <NamedIndividual IRI="#cost"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mehr"/>
+        <NamedIndividual IRI="#rupees"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AlSabaStudio"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#InvitedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Band1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isGiftedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Barcelet"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#GroomMother"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Designed"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Brand1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventDresses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#wears"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#costumes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isDaughterOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isHostedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BrideSideCelebration"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Friends"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#arrangedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SundasMustafa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#arrangedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahsanHabib"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Designed"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventDresses"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesignerCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isHostedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dua"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride/GroomFamily"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Dynasty"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPlannerCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPlannerCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventsByPash"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsHostedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FinalEvent"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Towards"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstEnterance"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ReceptionArea"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstWeddingEvent"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstWeddingEvent"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodStreetSargodha"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel1"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#InvitedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization2"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization2"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#dholki"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsOwnedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization4"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization5"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization6"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization7"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization8"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#floralArrangements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isFatherOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isFatherOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PerformedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance1"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsBeginningOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#WeddingRituals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsDoneAfter"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaeedSayalPhotography"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SafinaBoutique"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahabGeeTent_AndCateringService"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon4"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon5"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planned"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planned"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SilverPalmMarquee"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SingingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ArePaidTo"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SingingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SundasMustafa"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#floralArrangements"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PresentedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PresentedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isSituatedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#VogueMen"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahsanHabib"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#arrangedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#catering"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#conductedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#arrangedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#foodArrangements"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#InvitedBy"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#guest1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#invited_by"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SheikhMehmoodIqbal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#gaveServices"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planned"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+        <NamedIndividual IRI="#Mehndi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planned"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#planned"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person2"/>
+        <NamedIndividual IRI="#barat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsOwnerOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer1"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#IsOwnerOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer2"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FineArtWeddingsbyIrfanAhson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isOwnerOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer3"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isOwnerOf"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer4"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AreDesignedBy"/>
+        <NamedIndividual IRI="#Dresses_Bride"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#AreDesignedBy"/>
+        <NamedIndividual IRI="#Dresses_Groom"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <NamedIndividual IRI="#Mehndi"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <NamedIndividual IRI="#barat"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <NamedIndividual IRI="#waleema"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AhmedFiazPhotoGraphy"/>
+        <Literal>1 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AlSabaStudio"/>
+        <Literal>4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AtifAslam"/>
+        <Literal>4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#AtifAslam"/>
+        <Literal>5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelAndResort"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelandResort"/>
+        <Literal>3.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelandResort"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Band1"/>
+        <Literal>UkSahara&apos;s</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Specifications"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Barcelet"/>
+        <Literal>An ominous gold coin, or silver ,or cash amount wrapped in a silk scarf .</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique1"/>
+        <Literal>DressDesigner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique2"/>
+        <Literal>SafinaBoutique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Boutique3"/>
+        <Literal>VogueMen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Brand1"/>
+        <Literal>FarazManan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+        <Literal>UnzilaMehmood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Profession"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Bride1"/>
+        <Literal>DirectorOfMasterTilesCompany</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#EventDay"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#BrideSideCelebration"/>
+        <Literal>two to three weeks before wedding</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Decor"/>
+        <Literal>60-80 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer1"/>
+        <Literal>AhsanHabib</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer2"/>
+        <Literal>Siam Flower Shop Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Designer1"/>
+        <Literal>FarazMannan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner"/>
+        <Literal>4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner1"/>
+        <Literal>FarazManan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#DressDesigner1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Includes"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Event"/>
+        <Literal>Henna on leaf on birde&apos;s plam, sweets and oil on bride&apos;s hair</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#costumeItems"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventDresses"/>
+        <Literal>Lenhga,Maxi,Frock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization1"/>
+        <Literal>KsConcepts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization2"/>
+        <Literal>QasimYarTiwanaDecor/EventManager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization3"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization4"/>
+        <Literal>CharminarEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventOrganization4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotoGrapher4"/>
+        <Literal>AhmadFayyaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotoGrapher4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer1"/>
+        <Literal>AhmadFayyaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer2"/>
+        <Literal>OsmanPervaizMughal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer3"/>
+        <Literal>Mobeen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPhotographer3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannerCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventPlannerCharges"/>
+        <Literal>40Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon1"/>
+        <Literal>WinceByNadia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon2"/>
+        <Literal>Depilex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon3"/>
+        <Literal>M.DotBeautySalon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon4"/>
+        <Literal>SplendourSignatureSalon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSaloon4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger1"/>
+        <Literal>AtifAslam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger2"/>
+        <Literal>RahatFatehAliKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventSinger2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#EventsByPash"/>
+        <Literal>4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family1"/>
+        <Literal>MasterTiles</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Family2"/>
+        <Literal>JalalSons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#EventDay"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FirstWeddingEvent"/>
+        <Literal>First wedding ceremony event</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany1"/>
+        <Literal>DynastyEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany2"/>
+        <Literal>EventsByPash</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany3"/>
+        <Literal>FoodStreetSargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany4"/>
+        <Literal>SahabJeTentAndCateringServices</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodAndCateringCompany4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#FoodStreetSargodha"/>
+        <Literal>4.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Groom1"/>
+        <Literal>MoazzamKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel1"/>
+        <Literal>RosaBalancaClub</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Hotel2"/>
+        <Literal>BahriaGrandHotelandResort</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+        <Literal>4.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhson"/>
+        <Literal>2.5 -3 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#IrfanAhsonPhotoGraphy"/>
+        <Literal>2.5 - 3 Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#MobeenStudio"/>
+        <Literal>2 Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+        <Literal>MolanaTariqJamil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Mufti1"/>
+        <Literal>1Lac</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#OPMShoots"/>
+        <Literal>3 -3.5 Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization1"/>
+        <Literal>KsConcepts</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization1"/>
+        <Literal>15-20Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization2"/>
+        <Literal>MalimzayEvents</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+        <Literal>QasimYarTiwanaDecor/EventManager</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization3"/>
+        <Literal>15-20Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization4"/>
+        <Literal>imaginative wedding and event planner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization5"/>
+        <Literal>3StarEventPlanner</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization5"/>
+        <Literal>5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization6"/>
+        <Literal>Shahbaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization7"/>
+        <Literal>CharminarEventComplex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/ratingValue"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organization8"/>
+        <Literal>Ihsan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer1"/>
+        <Literal>ahsanHabib</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer2"/>
+        <Literal>SundasMustafa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Organizer3"/>
+        <Literal>Siam Flower Shop Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner1"/>
+        <Literal>SheikhMehmoodIqbal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Owner2"/>
+        <Literal>jalalKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance1"/>
+        <Literal>FireShow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance2"/>
+        <Literal>Gymnastics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performanceCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance2"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+        <Literal>Singing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performance3"/>
+        <Literal>10.5 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Performer1"/>
+        <Literal>TurkishGymnastics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RahatFatehAliKhan"/>
+        <Literal>4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RahatFatehAliKhan"/>
+        <Literal>5.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Includes"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Ritual2"/>
+        <Literal>EngagementRing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBlancaClub"/>
+        <Literal>4.7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SaeedSayalPhotography"/>
+        <Literal>5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SafinaBoutique"/>
+        <Literal>4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahabGeeTent_AndCateringService"/>
+        <Literal>5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Saloon_Charges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SahzzayKhalid"/>
+        <Literal>1 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon1"/>
+        <Literal>ShazrayKhalidSaloon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#SaloonCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon1"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon2"/>
+        <Literal>WinceByNadia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#SaloonCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon2"/>
+        <Literal>1Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon3"/>
+        <Literal>Depilex</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon4"/>
+        <Literal>M.DOTBEAUTYSALON</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Saloon5"/>
+        <Literal>SplendourSignatureSalonOfficial</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SanaJunaidKhan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Sargodha"/>
+        <Literal>4.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SilverPalmMarquee"/>
+        <Literal>4.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+        <Literal>AtifAslam</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer1"/>
+        <Literal>5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer2"/>
+        <Literal>IbrarUlHaq</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+        <Literal>RahatFatehAliKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Singer3"/>
+        <Literal>5.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SingingCharges"/>
+        <Literal>10.5Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#SundasMustafa"/>
+        <Literal>10Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme1"/>
+        <Literal>10Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme1"/>
+        <Literal>Floating Dreams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme2"/>
+        <Literal>10Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Theme2"/>
+        <Literal>FreshFloraDecor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#VogueMen"/>
+        <Literal>5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Saloon_Charges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#WinceByNadia"/>
+        <Literal>1 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+        <Literal>4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography"/>
+        <Literal>1 Miilion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ahsanHabib"/>
+        <Literal>10Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#RosaBalancaClubCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#baratHotelCharges"/>
+        <Literal>150Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#catering_service"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#catering"/>
+        <Literal>menu,design and preparation,cuisine creation and presentation,plate and dinner ware rentals,cleanup crew staffing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nikah_venu"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#ceremony"/>
+        <Literal>masjid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city1"/>
+        <Literal>Lahore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#city2"/>
+        <Literal>Sargodha</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#CostumeColor"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#costumes"/>
+        <Literal>Yellow</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#guest1"/>
+        <Literal>DrFirdousAshiqAwan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Profession"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#guest1"/>
+        <Literal>Doctor and Polotician PTI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Profession"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#jalalKhan"/>
+        <Literal>Owner of jalal Sons Company</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+        <Literal>5.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#mobeenStudios"/>
+        <Literal>2Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+        <Literal>1million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#molanaTariqJameel"/>
+        <Literal>4.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+        <Literal>4.8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#photo/videographyCharges"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots"/>
+        <Literal>3-3.5 Million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person1"/>
+        <Literal>SanaJunaidKhan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Name"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#person2"/>
+        <Literal>NattyAika</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer1"/>
+        <Literal>AhmadFayyaz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer2"/>
+        <Literal>IrfanAhson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer3"/>
+        <Literal>Mobeen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#photographer4"/>
+        <Literal>OsmanPervaizMughal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#wrappedIn"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#sweets"/>
+        <Literal>24KaratGoldLeafBox</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Rating"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+        <Literal>4.2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#foodItems"/>
+        <NamedIndividual IRI="http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany"/>
+        <Literal>BatairMasala, KoreanChicken, MurghPalao,MuttonShahiQoorma,,StirFriedRice and Sweets</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="#Bride_Dresses"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#salami_amount"/>
+        <NamedIndividual IRI="#Bride_Salami"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="#Cosmetics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">40000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <NamedIndividual IRI="#Crockery"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#costumeItems"/>
+        <NamedIndividual IRI="#Dresses_Bride"/>
+        <Literal>Lehnga,Maxi,Frock,Sharara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#costumeItems"/>
+        <NamedIndividual IRI="#Dresses_Groom"/>
+        <Literal>Sherwani,Pentcoat,WaistCoat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <NamedIndividual IRI="#Electric_Appliances"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <NamedIndividual IRI="#Furniture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">200000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#salami_amount"/>
+        <NamedIndividual IRI="#Groom_Salami"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">600000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <NamedIndividual IRI="#Home_Textile_items"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1000000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="#Jewellary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">500000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="#Mehndi"/>
+        <Literal>November2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <NamedIndividual IRI="#Shoes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="#barat"/>
+        <Literal>November2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="#bridal_shower"/>
+        <Literal>November2020</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mehr_amount"/>
+        <NamedIndividual IRI="#rupees"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">50000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <NamedIndividual IRI="#waleema"/>
+        <Literal>November2020</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PresentedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#isFatherOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#costs"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#invited_by"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#invited_through"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#shows"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI="owl:equivalentClass"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#decides"/>
+        <ObjectProperty IRI="#is_decided_by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#gives"/>
+        <ObjectProperty IRI="#is_given_by"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Adopted"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizationRating"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#DecorOrganizer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizationRating"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasPhotogrpahyRating"/>
+        <Class IRI="#Photographer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasSingingRatings"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PerformedIn"/>
+        <Class IRI="#Nikah"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSaloonRating"/>
+        <Class IRI="#Saloon"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#eventOrganization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performances"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#are_classified_into"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#are_performed_in"/>
+        <Class IRI="#Rituals"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#are_printed_by"/>
+        <Class IRI="#wedding_cards"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#arranged_for"/>
+        <Class IRI="http://schema.org/Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attend"/>
+        <Class IRI="#Guests"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consists_of"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consists_of"/>
+        <Class IRI="#Dowry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costs"/>
+        <Class IRI="#wedding_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#gifted_by"/>
+        <Class IRI="#Dowry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_different"/>
+        <Class IRI="http://schema.org/Menu"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hires"/>
+        <Class IRI="#wedding_planner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#invited_by"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#invited_through"/>
+        <Class IRI="#Guests"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_celebrated_in"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_decided_by"/>
+        <Class IRI="#Mehr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_given_by"/>
+        <Class IRI="#sadaq"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offered_by"/>
+        <Class IRI="#sadaq"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pays"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prepared_by"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prepared_by"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wears"/>
+        <Class IRI="#Bride"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wears"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#GroomFamily"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Adopted"/>
+        <Class IRI="#Theme"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasOrganizationRating"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasPhotogrpahyRating"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#HasSingingRatings"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PerformedIn"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masjid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#PlannedBy"/>
+        <Class IRI="#wedding_planner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#hasSaloonRating"/>
+        <Class IRI="http://schema.org/AggregateRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#organized"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.co-ode.org/ontologies/ont.owl#performedBy"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Performers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_classified_into"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_classified_into"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_classified_into"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_classified_into"/>
+        <Class IRI="#post_Wedding_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_performed_in"/>
+        <Class IRI="http://schema.org/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#are_printed_by"/>
+        <Class IRI="#printing_press"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#arranged_for"/>
+        <Class IRI="#Guests"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attend"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#booked_by"/>
+        <Class IRI="#wedding_planner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingEvents"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#PreWeddingRituals"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#WeddingCeremony"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#post_Wedding_Events"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#gifted_by"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_different"/>
+        <Class IRI="#Food_serving_Style"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_organized_in"/>
+        <Class IRI="http://schema.org/EventVenue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hires"/>
+        <Class IRI="#Photographer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#invited_by"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#invited_through"/>
+        <Class IRI="#wedding_cards"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_celebrated_in"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_celebrated_in"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_decided_by"/>
+        <Class IRI="#BrideFamily"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_given_by"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offered_by"/>
+        <Class IRI="#Groom"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pays"/>
+        <Class IRI="#Mehr"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prepared_by"/>
+        <Class IRI="#Saloon"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wears"/>
+        <Class IRI="#Costumes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Bari"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#catering_service"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#heldOn"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#ranking"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Studio_name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Class IRI="http://schema.org/Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <Class IRI="#Bari"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <Class IRI="#imam_mufti"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Singers"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#wholeEventCharges"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BrideAge"/>
+        <Class IRI="#Bride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Costumes_Price"/>
+        <Class IRI="#Costumes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <Class IRI="#Dowry"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GroomAge"/>
+        <Class IRI="#Groom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GuestsStrength"/>
+        <Class IRI="#Guests"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hotel_name"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#WalimaHotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Hotel_name"/>
+        <Class IRI="#BaratWeddingHotel"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nikah_venu"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#masjid"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Religion"/>
+        <Class IRI="#Bride"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Religion"/>
+        <Class IRI="#Groom"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Saloon_Charges"/>
+        <Class IRI="http://www.co-ode.org/ontologies/ont.owl#Expenditures"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Studio_name"/>
+        <Class IRI="#Photo_Studio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#cards_Price"/>
+        <Class IRI="#wedding_cards"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mehr_amount"/>
+        <Class IRI="#Mehr"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#salami_amount"/>
+        <Class IRI="#Salami"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://schema.org/givenName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#Bari_itemsPrice"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#DecorCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#NikahCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#singingCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.co-ode.org/ontologies/ont.owl#wholeEventCharges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BrideAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Costumes_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DowryItems_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GroomAge"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GuestsStrength"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Hotel_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nikah_venu"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Religion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Saloon_Charges"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Studio_name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#cards_Price"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mehr_amount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#salami_amount"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#wedding_Duration"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#AhmedFiazPhotoGraphy</IRI>
+        <Literal>gave photography and videography services on barat &amp; Mehndi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#BahriaGrandHotelandResort</IRI>
+        <Literal>Bahria Grand Hoal and Resort is ranked 6 among top most hoteels in lahore..</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#BrideSideCelebration</IRI>
+        <Literal>is held 2 to 3 weeks before wedding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Dynasty</IRI>
+        <Literal>Gave catering services on barat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#HasOrganizationRating</IRI>
+        <Literal>event Organization has aggregate Rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#HasPhotogrpahyRating</IRI>
+        <Literal>Photographer has photography aggregate Rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#IrfanAhson</IRI>
+        <Literal>Gave photography&amp;videography Services for Mehndi Barat waleema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#IrfanAhsonPhotoGraphy</IRI>
+        <Literal>gave photography and videography services on barat walima Mehndi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#MobeenStudio</IRI>
+        <Literal>gave photography and videography services on barat walima Mehndi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#OPMShoots</IRI>
+        <Literal>gave photography and videography services on barat walima Mehndi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#PerformedIn</IRI>
+        <Literal>Nikah performed in masjid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#PlannedBy</IRI>
+        <Literal>Event planned by wedding planner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#SahzzayKhalid</IRI>
+        <Literal>gave makeup services at barat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#WinceByNadia</IRI>
+        <Literal>gave makeup and Mehndi services</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#ahmadFayyazPhotography</IRI>
+        <Literal>gave photography&amp;videography Services for Mehndi and Barat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#barat</IRI>
+        <Literal>barat planned by sana_junaid_khan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#baratHotelCharges</IRI>
+        <Literal>Barat hotel charges were 150 Miilion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#mehndi</IRI>
+        <Literal>Mehndi Planned by sana_junaid_khan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#mobeenStudios</IRI>
+        <Literal>Gave photography&amp;videography Services for Mehndi Barat waleema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#osmanPervaizMughalShoots</IRI>
+        <Literal>Gave photography&amp;videography Services for Mehndi Barat waleema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#performedBy</IRI>
+        <Literal>Performances performed by performers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#Time&amp;TasteCateringandEventManagementCompany</IRI>
+        <Literal>Gave catering services on waleema</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.co-ode.org/ontologies/ont.owl#photography&amp;videographyCharges</IRI>
+        <Literal>Photography&amp;videogrpahy charges are paid to irfan ahsan. mobeen studios, osman pervaiz mughal shoots and ahmad fayyaz photography</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dresses_Bride</IRI>
+        <Literal>are Designed by faraz Mannan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dresses_Groom</IRI>
+        <Literal>are Designed by faraz Mannan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#are_performed_in</IRI>
+        <Literal>Rituals are performed in wedding event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#barat</IRI>
+        <Literal>KsConcepts Organized Decor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contains</IRI>
+        <Literal>event class contains pre-wedding rituals, pre-wedding events, wedding ceremony,post wedding events</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_decided_by</IRI>
+        <Literal>Mehr is decided by Bride family</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#offered_by</IRI>
+        <Literal>sadaq is offered by Groom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pays</IRI>
+        <Literal>Groom Pays Mehr</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
