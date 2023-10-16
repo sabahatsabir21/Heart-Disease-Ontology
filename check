@@ -14,6 +14,4 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="schema" IRI="https://schema.org"/>
-    <Prefix name="cmo" IRI="http://purl.obolibrary.org/obo/cmo.obo"/>
-    <Prefix name="ncit" IRI="http://purl.obolibrary.org/obo/ncit.owl"/>
-    <Prefix name="scdo" IRI="http://purl.obolibrary.org/obo/"/>
+   
