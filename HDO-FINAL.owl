@@ -199,6 +199,24 @@
     
 
 
+    <!-- http://hdo.org#usesPercutaneousDevice -->
+
+    <owl:ObjectProperty rdf:about="http://hdo.org#usesPercutaneousDevice">
+        <rdfs:domain rdf:resource="http://schema.org/PercutaneousProcedure"/>
+        <rdfs:range rdf:resource="http://hdo.org#PercutaneousDevice"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://hdo.org#usesSurgicalInstrument -->
+
+    <owl:ObjectProperty rdf:about="http://hdo.org#usesSurgicalInstrument">
+        <rdfs:domain rdf:resource="http://schema.org/SurgicalProcedure"/>
+        <rdfs:range rdf:resource="http://hdo.org#SurgicalInstrument"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://hdo.org#usesTherapeuticDevice -->
 
     <owl:ObjectProperty rdf:about="http://hdo.org#usesTherapeuticDevice">
@@ -799,6 +817,14 @@
     <!-- http://hdo.org#PercutaneousCoronaryInterventionDevices -->
 
     <owl:Class rdf:about="http://hdo.org#PercutaneousCoronaryInterventionDevices">
+        <rdfs:subClassOf rdf:resource="http://hdo.org#PercutaneousDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://hdo.org#PercutaneousDevice -->
+
+    <owl:Class rdf:about="http://hdo.org#PercutaneousDevice">
         <rdfs:subClassOf rdf:resource="http://hdo.org#TherapeuticDevice"/>
     </owl:Class>
     
@@ -889,6 +915,14 @@
     <owl:Class rdf:about="http://hdo.org#Sign">
         <rdfs:subClassOf rdf:resource="http://schema.org/MedicalSign"/>
         <rdfs:comment>Objective evidence of disease perceptible to the examining healthcare provider.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://hdo.org#SurgicalInstrument -->
+
+    <owl:Class rdf:about="http://hdo.org#SurgicalInstrument">
+        <rdfs:subClassOf rdf:resource="http://schema.org/MedicalDevice"/>
     </owl:Class>
     
 
