@@ -1,0 +1,450 @@
+Module-wise Competency Questions and SPARQL Queries
+Heart Disease Ontology (HDO)
+1. Disease Symphony Module
+CQ1. What stage is recorded for each medical condition?
+SPARQL Query: schema:stage
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?medicalcondition ?stage
+WHERE {
+    ?medicalcondition schema:stage ?stage.
+}
+
+
+CQ2. What possible complications are recorded for each medical condition or other entity?
+SPARQL Query: schema:possibleComplication
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?PossibleComplication ?Complication
+WHERE {
+    ?PossibleComplication schema:possibleComplication ?Complication
+}
+
+
+CQ3. Which differential diagnoses are recorded for the DifferentialDiagnosis entity?
+SPARQL Query: schema:differentialDiagnosis
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?diagnose ?result
+WHERE {
+    ?diagnose schema:differentialDiagnosis ?result.
+    FILTER (?diagnose = :DifferentialDiagnosis)
+}
+
+
+Review note: Verify whether DifferentialDiagnosis represents an entity or a general category.
+
+2. Etiology Module
+CQ4. Which risk factors are recorded as triggers for each disease?
+SPARQL Query: triggeredBy
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?disease ?riskfactor
+WHERE {
+    ?disease :triggeredBy ?riskfactor
+}
+
+
+CQ5. What causes are associated with each disease?
+SPARQL Query: isCausedBy
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?disease ?cause
+WHERE {
+    ?disease :isCausedBy ?cause
+}
+
+
+
+3. Clinical Procedure Module
+CQ6. Which signs are detected by echocardiography?
+SPARQL Query: detected — Echocardiography
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?test ?sign
+WHERE {
+    ?test :detected ?sign.
+    FILTER (?test = :Echocardiography)
+}
+
+
+CQ7. Which signs are detected by electrocardiography?
+SPARQL Query: detected — Electrocardiogram
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?test ?sign
+WHERE {
+    ?test :detected ?sign.
+    FILTER (?test = :Electrocardiogram)
+}
+
+
+CQ8. What clinical assessment results are recorded for the general physical examination?
+SPARQL Query: clinicalAssessment
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?physicalexam ?result
+WHERE {
+    ?physicalexam :clinicalAssessment ?result.
+    FILTER (?physicalexam = :GeneralPhysicalExam)
+}
+
+
+CQ9. Which systemic examination measurements are recorded for the cardiovascular system examination?
+SPARQL Query: systemicMeasurment — Cardiovascular System Examination
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?cardiovascularexam ?result
+WHERE {
+    ?cardiovascularexam :systemicMeasurment ?result.
+    FILTER (?cardiovascularexam = :CardiovascularSystemExam)
+}
+
+
+CQ10. Which systemic examination measurements are recorded for the central nervous system examination?
+SPARQL Query: systemicMeasurment — CNS Examination
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?nervoussytem ?result
+WHERE {
+    ?nervoussystem :systemicMeasurment ?result.
+    FILTER (?nervoussystem = :CNSExamination)
+}
+
+
+
+4. Treatment Module
+CQ11. Which drugs are associated with each subject in the ontology?
+SPARQL Query: schema:drug
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?patient ?drug
+WHERE {
+    ?patient schema:drug ?drug.
+}
+
+
+CQ12. Which drug class is associated with each drug-related subject?
+SPARQL Query: schema:drugClass
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?drugclass ?drug
+WHERE {
+    ?drugclass schema:drugClass ?drug.
+}
+
+
+CQ13. Which drug class is recorded for Benprost?
+SPARQL Query: schema:drugClass — Benprost
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?drugclass ?drug
+WHERE {
+    ?drugclass schema:drugClass ?drug.
+    FILTER (?drugclass = :Benprost)
+}
+
+
+CQ14. What target population is specified for LoprinDose?
+SPARQL Query: schema:targetPopulation
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?diagnose ?result
+WHERE {
+    ?diagnose schema:targetPopulation ?result.
+    FILTER (?diagnose = :LoprinDose)
+}
+
+
+
+5. Clinical Manifestation Module
+CQ15. Which findings are recorded for each test?
+SPARQL Query: finds
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?finding
+WHERE {
+    ?test :finds ?finding.
+}
+
+
+CQ16. Which findings are identified through HRCT?
+SPARQL Query: finds — HRCT
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?finding
+WHERE {
+    ?test :finds ?finding.
+    FILTER (?test = :HRCT)
+}
+
+
+CQ17. What normal test values are recorded for electrocardiography?
+SPARQL Query: normalTestValues
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?value
+WHERE {
+    ?test :normalTestValues ?value.
+    FILTER (?test = :Electrocardiogram)
+}
+
+
+CQ18. What measured values are recorded for echocardiography?
+SPARQL Query: measures — Echocardiography
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?value
+WHERE {
+    ?test :measures ?value.
+    FILTER (?test = :Echocardiography)
+}
+
+
+CQ19. What measured values are recorded for electrocardiography?
+SPARQL Query: measures — Electrocardiogram
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?value
+WHERE {
+    ?test :measures ?value.
+    FILTER (?test = :Electrocardiogram)
+}
+
+
+CQ20. What measured values are recorded for the complete blood count (CBC) test?
+SPARQL Query: measures — CBC
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?test ?value
+WHERE {
+    ?test :measures ?value.
+    FILTER (?test = :CBC)
+}
+
+
+CQ21. What reference ranges are recorded for blood glucose measurements?
+SPARQL Query: schema:normalRange
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?bloodglucose ?value
+WHERE {
+    ?bloodglucose schema:normalRange ?value.
+}
+
+
+
+6. Medical History Module
+CQ22. What past medical history is recorded for each patient?
+SPARQL Query: hasMedicalHistory
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?patient ?medicalHistory
+WHERE {
+    ?patient :hasMedicalHistory ?medicalHistory.
+}
+
+
+CQ23. Which medications is each patient currently taking?
+SPARQL Query: isCurrentlyOn
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?patient ?currentMedication
+WHERE {
+    ?patient :isCurrentlyOn ?currentMedication.
+}
+
+
+
+7. Person Module
+CQ24. Which symptoms are associated with each patient?
+SPARQL Query: hasSymptom
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?patient ?symptom
+WHERE {
+    ?patient :hasSymptom ?symptom.
+}
+
+
+CQ25. Which identifying examinations are associated with the recorded vital signs?
+SPARQL Query: schema:identifyingExam
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?vitalsign ?assessment
+WHERE {
+    ?vitalsign schema:identifyingExam ?assessment.
+}
+
+
+CQ26. Which diagnoses are associated with the recorded subjects?
+SPARQL Query: schema:diagnosis
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?diagnose ?result
+WHERE {
+    ?diagnose schema:diagnosis ?result.
+}
+
+
+
+8. Clinical Devices Module
+CQ27. Which diagnostic devices are associated with each recorded test or examination?
+SPARQL Query: usesDiagnosticDevice
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?HRCT ?DeviceName
+WHERE {
+    ?HRCT :usesDiagnosticDevice ?DeviceName.
+}
+
+
+CQ28. Which diagnostic device is associated with CBCValues?
+SPARQL Query: usesDiagnosticDevice — Laboratory Analyzer
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?CBC ?DeviceName
+WHERE {
+    ?CBC :usesDiagnosticDevice ?DeviceName.
+    FILTER (?CBC = :CBCValues)
+}

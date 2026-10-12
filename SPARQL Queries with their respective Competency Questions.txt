@@ -1,0 +1,259 @@
+Group: Disease Symphony
+Q1. What is the stage of rheumatic heart disease condition if a patient has acute rheumatic fever?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?medicalcondition ?stage
+	WHERE { ?medicalcondition schema:stage ?stage.}
+
+Q2. What are the possible complications of having Rheumatic Heart Disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+
+SELECT ?PossibleComplication ?Complication
+	WHERE { ?PossibleComplication schema:possibleComplication ?Complication }
+
+Q3. What are the differential diagnosis of Rheumatic Heart Disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?diagnose ?result
+	WHERE { ?diagnose schema:differentialDiagnosis ?result.
+FILTER (?diagnose = :DifferentialDiagnosis) }
+
+Group: Etiology
+Q1. What are the factors that increase the risk of rheumatic heart disease in a person?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+SELECT ?disease  ?riskfactor
+	WHERE { ?disease :triggeredBy ?riskfactor }
+
+Q2. What are the causes that lead a patient to have rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+SELECT ?disease  ?cause
+	WHERE { ?disease :isCausedBy ?cause }
+
+Group: Clinical Procedure
+Q1. What are the medical signs of the patient detected by echocardiography for rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+SELECT ?test  ?sign
+	WHERE { ?test :detected ?sign.
+	FILTER (?test = :Echocardiography) }
+
+Q2. What are the medical signs of the patient detected by electrocardiogram for rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?sign
+	WHERE { ?test :detected ?sign.
+	FILTER (?test = :Electrocardiogram) }
+
+Q3. What are the medical signs of the patient detected by HRCT for rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?sign
+	WHERE { ?test :detected ?sign.
+	FILTER (?test = :HRCT) }
+
+Q4. What does General Physical Examination diagnose if a patient has Rheumatic Heart Disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?physicalexam ?result
+	WHERE { ?physicalexam :clinicalAssessment ?result.
+FILTER (?physicalexam = :GeneralPhysicalExam) }
+Q5. What does Cardiovascular System Exam diagnose if the patient has Rheumatic Heart Disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?cardiovascularexam ?result
+	WHERE { ?cardiovascularexam :systemicMeasurment ?result.
+FILTER (?cardiovascularexam = :CardiovascularSystemExam) }
+
+Group: Treatment
+Q1. Which drugs are recommended to a patient diagnosed with rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?patient ?drug
+	WHERE { ?patient schema:drug ?drug.}
+
+Q2. What is the drug class of Aspirin?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?Drug ?DrugClass
+	WHERE { ?Drug schema:drugClass ?DrugClass.}
+
+Q3. What is the target population of Loprin 75mg drug?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?Drug ?AgeGroup
+	WHERE { ?Drug schema:targetPopulation ?AgeGroup.
+FILTER (?Drug = :LoprinDose) }
+
+
+Group: Clinical Manifestation
+Q1. What are the Echocardiography findings of a patient having rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?finding
+	WHERE { ?test :finds ?finding.}
+
+Q2. What are the HRCT findings of a patient having rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?finding
+	WHERE { ?test :finds ?finding.
+FILTER (?test = :HRCT) }
+
+Q3. What are the normal range values of the CBC test?
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?normalvalues
+	WHERE { ?test schema:normalRange ?normalvalues.
+FILTER (?test = :CBCValues) }
+
+Q4. What are the normal range values of ECG?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?test  ?normalvalues
+	WHERE { ?test :normalTestValues ?normalvalues.
+FILTER (?test = :Electrocardiogram) }
+Group: Medical History
+Q1. What is the medical history of a patient diagnosed with Rheumatic heart disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?patient  ?medicalHistory
+	WHERE { ?patient :hasMedicalHistory ?medicalHistory.}
+
+
+
+
+Q2. What are the medications that the patient currently taking?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <https://schema.org/>
+SELECT ?patient  ?currentMedication
+	WHERE { ?patient :isCurrentlyOn ?currentMedication.}
+
+Group: Person
+Q3. What are the symptoms of a patient having Rheumatic Heart Disease?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?patient ?symptom
+	WHERE { ?patient :hasSymptom ?symptom.}
+
+Q4. What are the Vital Signs of the patient?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?vitalsign ?assessment
+Q5. What is the provisional diagnosis that the patient is diagnosed with?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?patient  ?diagnosis
+	WHERE { ?patient schema:diagnosis ?diagnosis.}
+	WHERE { ?vitalsign schema:identifyingExam ?assessment.}
+
+Group: Clinical Devices
+ Q1. Which medical device is used to perform HRCT for diagnostic purpose?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?HRCT ?DeviceName
+	WHERE { ?HRCT :usesDiagnosticDevice ?DeviceName.}
+Q2. Which medical devices are used to diagnose heart diseases?
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://hdo.org#>
+PREFIX schema: <http://schema.org/>
+SELECT ?MedicalDevice ?MedicalTest
+	WHERE { ?MedicalDevice :usesDevice ?MedicalTest.}
+
