@@ -1,0 +1,22 @@
+HDO — HermiT Reasoner Execution Log (Filtered Extract)
+Source: Original Protégé application log provided by the user
+Session: 12 October 2026, 10:23–10:25 (local timestamp as recorded)
+Note: The entries below are reproduced verbatim and in original order. Unrelated log entries have been omitted. Successful processing does not by itself constitute an explicit consistency verdict; see the separate DL Query owl:Nothing screenshot for satisfiability evidence.
+
+2026-10-12 10:23:06.192 [FelixDispatchQueue] INFO  ProtegeApplication    Protege Desktop
+2026-10-12 10:23:06.192 [FelixDispatchQueue] INFO  ProtegeApplication    Version 5.6.9, Build 
+2026-10-12 10:23:06.200 [FelixDispatchQueue] INFO  ProtegeApplication    Plugin: HermiT Reasoner (1.4.3.456)
+2026-10-12 10:23:11.168 [FelixDispatchQueue] INFO  ProtegeApplication    Processing command line argument: C:\Users\jpC\Desktop\Heart Disease Ontology\HDO supporting material\Heart Disease Ontology.owl
+2026-10-12 10:23:15.552 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading ontology from file:/C:/Users/jpC/Desktop/Heart%20Disease%20Ontology/HDO%20supporting%20material/Heart%20Disease%20Ontology.owl
+2026-10-12 10:23:16.224 [pool-3-thread-1] INFO  OntologyLoader    Finished loading file:/C:/Users/jpC/Desktop/Heart%20Disease%20Ontology/HDO%20supporting%20material/Heart%20Disease%20Ontology.owl
+2026-10-12 10:23:48.303 [AWT-EventQueue-0] INFO  OWLModelManagerImpl    Loading for ontology and imports closure successfully completed in 32751 ms
+2026-10-12 10:25:19.023 [Classification Thread] INFO  OWLReasonerManager    ------------------------------- Running Reasoner -------------------------------
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager    Pre-computing inferences:
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - class hierarchy
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - object property hierarchy
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - data property hierarchy
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - class assertions
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - object property assertions
+2026-10-12 10:25:19.281 [Classification Thread] INFO  OWLReasonerManager        - same individuals
+2026-10-12 10:25:19.724 [Classification Thread] INFO  OWLReasonerManager    Ontologies processed in 703 ms by HermiT
+2026-10-12 10:25:19.728 [Classification Thread] INFO  OWLReasonerManager    
